@@ -1,21 +1,22 @@
 package br.sp.senai.jandira.calculadora.model;
 
 public class Quadrado {
-	
-	private int comprimento;
-	private int altura;
-		
-	
-	public void setQuadrado (int comprimento, int altura) {
-		this.comprimento = comprimento;
-		this.altura = altura;
-	};
-	
-	public int getQuadrado(int comprimento, int altura){
-		this.comprimento = comprimento;
-		this.altura = altura;
-		int area = (comprimento*altura);
-		return area;
-		};
-		
+
+	private double lado;
+
+	public double getLado() {
+		return lado;
+	}
+
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+
+	public double calcularArea() {
+		return lado * lado;
+	}
+
+	public double calcularPerimetro() {
+		return 4 * lado;
+	}
 }

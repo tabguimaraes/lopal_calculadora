@@ -1,5 +1,6 @@
 package br.sp.senai.jandira.calculadora;
 
+import br.sp.senai.jandira.calculadora.model.Circulo;
 import br.sp.senai.jandira.calculadora.model.Quadrado;
 
 public class Main {
@@ -8,10 +9,14 @@ public class Main {
 		// TODO Auto-generated method stub
 		Quadrado quadrado = new Quadrado();
 		quadrado.setLado(10);
-		
-		System.out.println("Área do quadrado: " + quadrado.calcularArea());
-        System.out.println("Perímetro do quadrado: " + quadrado.calcularPerimetro());
 
+		System.out.println("Área do quadrado: " + quadrado.calcularArea());
+		System.out.println("Perímetro do quadrado: " + quadrado.calcularPerimetro());
+
+		Circulo circulo = new Circulo();
+		circulo.setRaio(12);
+
+		System.out.println("Área do círculo: " + circulo.calcularArea());
 	}
 
 }

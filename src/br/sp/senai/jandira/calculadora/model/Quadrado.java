@@ -4,9 +4,10 @@ public class Quadrado {
 
 	private double lado;
 
-	public double getLado() {
-		return lado;
-	}
+//	Verificar real necessidade de uso da função getLado
+//	public double getLado() {
+//		return lado;
+//	}
 
 	public void setLado(double lado) {
 		this.lado = lado;

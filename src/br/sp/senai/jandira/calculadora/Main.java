@@ -2,6 +2,7 @@ package br.sp.senai.jandira.calculadora;
 
 import br.sp.senai.jandira.calculadora.model.Circulo;
 import br.sp.senai.jandira.calculadora.model.Quadrado;
+import br.sp.senai.jandira.calculadora.model.Retangulo;
 
 public class Main {
 
@@ -17,6 +18,13 @@ public class Main {
 		circulo.setRaio(12);
 
 		System.out.println("Área do círculo: " + circulo.calcularArea());
+
+		Retangulo retangulo = new Retangulo();
+		retangulo.setBase(10);
+		retangulo.setAltura(5);
+
+		System.out.println("Área do retângulo: " + retangulo.calcularArea());
+		System.out.println("Perímetro do retângulo: " + retangulo.calcularPerimetro());
 	}
 
 }

@@ -12,7 +12,7 @@ public class Main {
 		Circulo circulo = new Circulo();
 		circulo.setRaio(12);
 
-		System.out.println("Área do círculo: " + circulo.calcularArea());
+		System.out.println("Área do círculo: " + Math.round(circulo.calcularArea()));
 
 		Quadrado quadrado = new Quadrado();
 		quadrado.setLado(10);

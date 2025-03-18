@@ -1,6 +1,6 @@
 package br.sp.senai.jandira.calculadora;
 
-import br.sp.senai.jandira.calculadora.model.Circulo;
+//import br.sp.senai.jandira.calculadora.model.Circulo;
 import br.sp.senai.jandira.calculadora.model.Quadrado;
 import br.sp.senai.jandira.calculadora.model.Retangulo;
 import br.sp.senai.jandira.calculadora.model.Trapezio;
@@ -9,10 +9,10 @@ import br.sp.senai.jandira.calculadora.model.Triangulo;
 public class Main {
 
 	public static void main(String[] args) {
-		Circulo circulo = new Circulo();
-		circulo.setRaio(12);
+//		Circulo circulo = new Circulo();
+//		circulo.setRaio(12);
 
-		System.out.println("Área do círculo: " + Math.round(circulo.calcularArea()));
+//		System.out.println("Área do círculo: " + Math.round(circulo.calcularArea()));
 
 		Quadrado quadrado = new Quadrado();
 		quadrado.setLado(10);
@@ -35,11 +35,17 @@ public class Main {
 		System.out.println("Área do trapézio: " + trapezio.calcularArea());
 
 		Triangulo triangulo = new Triangulo();
-		triangulo.setBase(10);
-		triangulo.setAltura(5);
 
-		System.out.println("Área do triângulo: " + triangulo.calcularArea());
+		System.out.println("Tipo do triângulo: " + triangulo.tipoTriangulo());
 
 	}
 
 }
+
+//Triangulo triangulo;
+
+//Triangulo triangulo = new Triangulo();
+//triangulo.setBase(10);
+//triangulo.setAltura(5);
+//
+//System.out.println("Área do triângulo: " + triangulo.calcularArea());

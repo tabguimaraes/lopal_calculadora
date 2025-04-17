@@ -1,0 +1,51 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e caches
+*.log
+*.tmp
+*.swp
+*.swo
+.cache/
+node_modules/
+
+# Compilação e dependências
+dist/
+build/
+out/
+vendor/
+
+# Arquivos sensíveis
+.env
+.env.local
+config/secrets.yml
+credentials.json
+
+# Git e IDEs
+.git/
+.vscode/
+.idea/
+
+# Compilação e dependências
+# bin/
+# target/
+# *.class
+# *.jar
+# *.war
+# *.ear
+
+# Configurações do Eclipse
+.project
+.classpath
+.settings/
+
+# Configurações do IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Logs e arquivos temporários
+*.log
+hs_err_pid*
